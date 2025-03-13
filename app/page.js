@@ -1,11 +1,9 @@
 import Image from "next/image";
 import ExcelReader from "./components/ExcelReader";
+import data from "./data";
 
 export default function Home() {
-  const data = [
-    {'name':'Jong','handicap':9,'1stDay':70,'2ndDay':69,'3rdDay':68,'total':68},
-    {'name':'Mai','handicap':9,'1stDay':70,'2ndDay':69,'3rdDay':68,'total':69}
-  ]
+  const datax = data
   return (
     <div className="p-5">
       <h2 className="text-lg font-bold mb-4">Player Scores</h2>
@@ -21,7 +19,7 @@ export default function Home() {
           </tr>
         </thead>
         <tbody>
-          {data.map((player, index) => (
+          {datax.map((player, index) => (
             <tr key={index} className="hover:bg-gray-100">
               <td className="border border-gray-400 px-4 py-2">{player.name}</td>
               <td className="border border-gray-400 px-4 py-2">{player.handicap}</td>
