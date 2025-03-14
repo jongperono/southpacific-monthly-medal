@@ -6,6 +6,8 @@ import ExcelDisplay from "./components/ReadExcelFileData/ExcelDisplay";
 export default function Home() {
   const datax = data
   return (
+    // this is to display
     <ExcelDisplay />
+
   );
 }
