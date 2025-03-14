@@ -24,9 +24,11 @@ const ExcelDisplay = () => {
             <table>
                 <tbody> 
                     {
-                        excelData.map((row, rowIndex)=>(
+                        excelData.map(
+                            (row, rowIndex)=>(
                             <tr key={rowIndex}>
-                                {row.map((cell, cellIndex)=> (
+                                {row.map(
+                                    (cell, cellIndex)=> (
                                     <td key={cellIndex}>{cell}</td>
                                 ))}
                             </tr>
