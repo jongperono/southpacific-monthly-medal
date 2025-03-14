@@ -20,12 +20,56 @@ export default function ExcelDisplay() {
         <table className="min-w-full border border-gray-300 shadow-lg rounded-lg">
             <thead className="bg-blue-500 text-white">
                 <tr>
-                    <th className="px-6 py-3 text-left">#</th>
-                    <th className="px-6 py-3 text-left">Name</th>
-                    <th className="px-6 py-3 text-left">Day 1</th>
-                    <th className="px-6 py-3 text-left">Day 2</th>
-                    <th className="px-6 py-3 text-left">Day 3</th>
+                    <th className="px-6 py-3 text-left">Hole</th>
+                    <th className="px-6 py-3 text-left">1</th>
+                    <th className="px-6 py-3 text-left">2</th>
+                    <th className="px-6 py-3 text-left">3</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">5</th>
+                    <th className="px-6 py-3 text-left">6</th>
+                    <th className="px-6 py-3 text-left">7</th>
+                    <th className="px-6 py-3 text-left">8</th>
+                    <th className="px-6 py-3 text-left">9</th>
+                    <th className="px-6 py-3 text-left"></th>
+                    <th className="px-6 py-3 text-left">10</th>
+                    <th className="px-6 py-3 text-left">11</th>
+                    <th className="px-6 py-3 text-left">12</th>
+                    <th className="px-6 py-3 text-left">13</th>
+                    <th className="px-6 py-3 text-left">14</th>
+                    <th className="px-6 py-3 text-left">15</th>
+                    <th className="px-6 py-3 text-left">16</th>
+                    <th className="px-6 py-3 text-left">17</th>
+                    <th className="px-6 py-3 text-left">18</th>
+                    <th className="px-6 py-3 text-left"></th>
                     <th className="px-6 py-3 text-left">Total</th>
+                    <th className="px-6 py-3 text-left">Handicap</th>
+                    <th className="px-6 py-3 text-left">Net</th>
+                </tr>
+                <tr>
+                    <th className="px-6 py-3 text-left">Par</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">5</th>
+                    <th className="px-6 py-3 text-left">3</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">3</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">5</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left"></th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">5</th>
+                    <th className="px-6 py-3 text-left">3</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">3</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">4</th>
+                    <th className="px-6 py-3 text-left">5</th>
+                    <th className="px-6 py-3 text-left"></th>
+                    <th className="px-6 py-3 text-left"></th>
+                    <th className="px-6 py-3 text-left"></th>
+                    <th className="px-6 py-3 text-left"></th>
                 </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
