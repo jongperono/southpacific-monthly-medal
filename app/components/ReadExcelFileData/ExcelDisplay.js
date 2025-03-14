@@ -11,6 +11,7 @@ const ExcelDisplay = () => {
     const handleFileSelect = async (file) => {
         try {
             const data = await readExcel(file)
+            console.log(data)
             setExcelData(data)
         } catch (error) {
             console.error('Error reading Excel file:', error)
