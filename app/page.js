@@ -9,7 +9,6 @@ export default function Home() {
   const datax = data
   return (
     <div>
-      Display data
       {/* <ReadTextFile/> */}
       {/* <ReadExcelFile/> */}
       <ExcelDisplay/>
