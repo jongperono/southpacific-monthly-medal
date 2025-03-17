@@ -18,9 +18,7 @@ export default function ExcelDisplay() {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
         <div className="text-center p-6 bg-white shadow-lg rounded-2xl">
-            <svg className="mx-auto w-16 h-16 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m0 0V8h2v4h-1zm-6 4h16M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
+            
             <h1 className="text-2xl font-semibold text-gray-800 mt-4">We'll be back soon!</h1>
             <p className="text-gray-600 mt-2">We're performing some maintenance. We'll be back shortly.</p>
             <p className="text-sm text-gray-500 mt-4">Thank you for your patience.</p>
