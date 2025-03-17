@@ -16,13 +16,11 @@ export default function ExcelDisplay() {
   }, []);
 
   return (
+    
     <div className="flex items-center justify-center h-screen bg-gray-100">
-        <div className="text-center p-6 bg-white shadow-lg rounded-2xl">
-            
-            <h1 className="text-2xl font-semibold text-gray-800 mt-4">We'll be back soon!</h1>
-            <p className="text-gray-600 mt-2">We are performing some maintenance. We will be back shortly.</p>
-            <p className="text-sm text-gray-500 mt-4">Thank you for your patience.</p>
-        </div>
+        <h1 className="text-2xl font-semibold text-gray-800 mt-4">
+        We are performing some maintenance. We will be back shortly.
+        </h1>
     </div>
     // <div classNameName="overflow-x-auto p-4">
     //     <table classNameName="min-w-full border border-gray-300 shadow-lg rounded-lg">
